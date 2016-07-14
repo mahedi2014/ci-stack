@@ -1,0 +1,14 @@
+{
+	"name": "CI Project",
+	"description": "Module Based CI Project",
+	"type": "project",
+  	"require": {
+	  "phpmailer/phpmailer": "~5.2"
+	},
+  "autoload": {
+	"classmap": ["application/libraries/"],
+	"psr-0": {
+	  "": "src/"
+	}
+  }
+}
